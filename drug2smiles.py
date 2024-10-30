@@ -1,5 +1,6 @@
 import requests
 
+
 def get_smiles_from_compound_name(compound_name):
     url = f"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/{compound_name}/property/CanonicalSMILES/JSON"
 
